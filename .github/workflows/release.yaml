@@ -36,7 +36,7 @@ jobs:
           database-type: ${{ matrix.database }}
           
       - name: Prime app build
-        run: make
+        run: Makefile
 
       
       - name: Configure server with app
