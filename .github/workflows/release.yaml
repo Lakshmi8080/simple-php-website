@@ -36,7 +36,7 @@ jobs:
           database-type: ${{ matrix.database }}
           
       - name: Prime app build
-        run: composer install
+        run: make
 
       
       - name: Configure server with app
